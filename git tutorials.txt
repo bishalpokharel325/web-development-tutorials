@@ -24,4 +24,23 @@ git add git tutorials.txt
 git add .
 6)git status gerer aherda new file add vako tha huncha
 
+#3) add, commit, diff and log
 
+add
+
+1) new file banaune echo > introduction.txt
+2) git add . or git add introduction.txt
+
+commit
+
+
+3)git status ma jada no commit vanxa
+4) git commit -m "GIT sucessfully commited"
+5) yo hamle project ma change gareko kura ho
+6) go to introduction.txt and write something and type git status again... 
+7) change chai gariyo comment vayena vanxa
+8) git commit -m "Update"
+9) feri git status herne: modify gariyo but add chai gariyena
+10) git add introduction.txt
+11) git commit -m "update"
+12) one file changed vanxa.... 
