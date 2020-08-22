@@ -64,5 +64,9 @@ git remote add origin https://github.com/bishalpokharel325/repository ko name.gi
 22) git push garna:
 git push -u origin master 
 23) login detail dene:
-24) suppose kei change garum git ko folder project ma...
+24) suppose kei change garum git ko folder project ma...change garim re then
+25) commit paxi:
+update garne bela ma:
+git push origin master garne
+26) update vako git hub ma ni update garxa 
 
