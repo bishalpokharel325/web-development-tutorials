@@ -44,3 +44,10 @@ commit
 10) git add introduction.txt
 11) git commit -m "update"
 12) one file changed vanxa.... 
+
+13) git log garera herne: tya random token aako huncha
+author ko ho log ko system ma display garirako cha
+14) feri introduction ko file change gardim
+15) git status
+16) git diff : yesle paila k theo ra aile k cha vanera dekhaucha
+
