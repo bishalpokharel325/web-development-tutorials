@@ -50,4 +50,19 @@ author ko ho log ko system ma display garirako cha
 14) feri introduction ko file change gardim
 15) git status
 16) git diff : yesle paila k theo ra aile k cha vanera dekhaucha
+17) feri git add garne ani git commit -m "update" garne 
+feri git status garda feri commit vayo
+
+
+#video no 3:
+
+18) github .com ma login garne
+19) create new nai garna ni milcha repository
+20) git commit garisakexi
+21) yo git hub mai huncha
+git remote add origin https://github.com/bishalpokharel325/repository ko name.git
+22) git push garna:
+git push -u origin master 
+23) login detail dene:
+24) suppose kei change garum git ko folder project ma...
 
