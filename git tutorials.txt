@@ -1,0 +1,27 @@
+#Video no 1: 
+
+#1) Configuration kasari garne
+
+1) hamile git vanera cmd prompt ma herim vane dherai commands heru chan..
+2) first ma git lai configuration garnu parne huncha
+3)git config enter garyo vane .. configuration ko lagi 
+4) cls
+5)git config --global user.name "bishalpokharel325" enter
+6) git config --global user.email "bishalpokharel325@gmail.com" enter
+7) code editor lai ni config garna milxa:
+git config --global core.editor "codeblock"
+8) configuration vayo vayena check garna ko lagi:
+git config --global user.name enter garda display gardincha
+
+#2) After doing configuration:
+
+1) go to folder where your project is.. and type cmd in the navigatio bar
+2) type command git init >> yesle new ripository create garxa
+3) tyo folder ma janu .. hidden ma baseko huncha .git tyo herne
+4) kunai particular file lai add garna:
+git add git tutorials.txt
+5) sapai file add garna
+git add .
+6)git status gerer aherda new file add vako tha huncha
+
+

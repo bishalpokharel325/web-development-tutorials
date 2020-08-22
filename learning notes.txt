@@ -1,0 +1,318 @@
+ Dhan Prasad Tutorials Youtube
+
+#video no 1st
+
+1) make a new file named introduction.html save as type "all"
+2) Encoding UTF-8 hunu parxa .. Unicode Tranfer Format.. yesle aru langauge le ni website banauna sakincha
+3) type just hello html and go to file and save  ... in the note pad
+4) go to the file and double click.. tya tyo text display vako huncha
+5) but tyasari lekhidaina html... tags <> ra rule follow garnu parne huncha
+6) HTML ko auta fixed structure huncha
+
+<!DOCTYPE html>
+<html> .... yo vaneko opening tag
+.
+.
+.
+
+</html> yo vaneko closing tag
+html language ma lekhine tag html vitra lekhincha
+tag heru ko visibility hunna browser
+browser ko source code herna ctrl+u garne
+
+7) auta rule huncha tag open garisakexi close garnai parne huncha
+8) html ko dui ta subchild tag huncha head and body and duai ko farak meaning cha
+9) head: information collect garera rakhna ko lagi... generally display hudaina
+10) Body: Display garne element heru rakhna ko lagi body prayog garincha
+11) title: yo tag head vitra lekhincha... browser ko tab ma name ka rakhne yo tag vitra lekhne
+12) meta: <meta charset="UTF-8"/> head vitra lagaunu parxa so that encoding uTF-8 hos sapai symbol lagauna milos
+13) browser ma right click and inspect garne: tya elements tab ma html ko tag deko huncha  
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Yo head section ma website ko information dene</title>
+		
+	</head>
+	<body>
+		Yo body section ma sapai website vitra ko elements heru dene
+	</body>
+</html>
+
+#SECOND VIDEO #2
+
+1) Aba hami editor heru ma garum: visual studio for windows very popular
+you can use sublime text as well
+2) visual studio code kholne.... file>>>>>> open folder>>>>> hello html
+3) make a new file meta tag.html
+4)editor use garda k faida huncha vne.. visual studio new file ma exclamation paxi tab thichda 
+basic structure afai dene garcha we should not write any code there
+5) AJA KO FOCUS HEAD SECTION MA MATRA HUNCHA
+6) WRITE ALL CODE AGAIN OF VIDEO #1
+7) head section ko meta tag ma important kura heru yes prakar chan
+	i) <meta charset="UTF-8">
+	ii) <meta name="Keywords" content="HTML,JAVAscript, CSS, Jquery">
+		yo kam vaneko hamro web app ko lai search engine optimization (SEO)
+		content ma vako words heru search garda hamro website ni browser ma dekhiyos tyesko lagi ho
+	   
+yo herna ko lagi go to browser and go to google and search"html" 
+w3 ko website ma jaam
+right click garera view sourcecode ma jaam
+meta name ma html vanne ni cha so google source ma dekhiyo
+<meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
+         iii) <meta name="description" content="Well Organised and easy to understand web building tutorials with lots of examples on how to code">
+yesko kam .. google search ko description hubahu yei dekhaucha.. for example w3 kai website ko herne
+          iv)<meta name="author" content="Bishal Pokharel">
+           v) <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+             yo garda device anusar display content hucha
+             it also gives initial zoom level when page is loaded
+
+SEO example:
+facebook, insta linkden ko lagi og use gare for twitter property ma twitter use garne
+      <meta charset="utf-8">
+      <link rel="canonical" href="http://ropewaynepal.com/" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="keywords" content="Ropeway Nepal Pvt. Ltd.,  "/>
+      <meta name="description" content="Group of enthusiastic Engineers with a vision to develop the best rope ways &amp; cable cars in Nepal., "/>
+      <title> Ropeway Nepal Pvt. Ltd. </title>
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Ropeway Nepal - Group of enthusiastic Engineers with a vision to develop the best rope ways &amp; cable cars in Nepal." />
+      <meta property="og:description" content="Group of enthusiastic Engineers with a vision to develop the best rope ways &amp; cable cars in Nepal." />
+      <meta property="og:url" content="http://ropewaynepal.com/" />
+      <meta property="og:site_name" content="Ropeway Nepal" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:description" content="Group of enthusiastic Engineers with a vision to develop the best rope ways &amp; cable cars in Nepal." />
+      <meta name="twitter:title" content="Ropeway Nepal - Group of enthusiastic Engineers with a vision to develop the best rope ways &amp; cable cars in Nepal." />
+      <link rel="shortcut icon" href="https://ropewaynepal.com/themes-assets/images/favicon.ico" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://ropewaynepal.com/themes-assets/css/uikit.min.css" />      
+      <link rel="stylesheet" href="https://ropewaynepal.com/themes-assets/css/style.css" />
+      <script src="https://www.google.com/recaptcha/api.js?render=6Ld48O4UAAAAAJfgFMxUcu5KXP-LGMJIgEdb8BMH"></script>
+
+
+facebook and twitter integration
+<meta property="og:type,title,image,url,locale,decription,site_name" content="">
+for twitter
+<meta name="twitter:title,image,url,card" content="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Video no 3: Heading and paragraph tags
+
+1) body vitra H1 tag narakhi hello lekhna mildina theo ra??
+search engine optimization ko lagi 
+2) <h1> hello heading tag </h1> 
+   h1 dekhi h6 samma huncha
+3) H1 sapse thulo ra content syanu hudai jancha h6 samma bold hudai less bold tira gariaxa
+4) h1 dekhi h3 samma seo friendly huncha contents h1 is best
+5) heading tag lekhda k garnu hudaina?
+h1 vitra h3 element allow hudaina
+<h1> hello world <h2> hello world 2 </h2> </h1>
+6) HTML 5 ma heading heru lai group banara lekhna milxa
+ <hgroup>
+<h1> introduction</h1>
+<h2> introduction</h2>
+
+</hgroup>
+ 
+7) lorem enter lekhne tyo garda auta rendom text dincha
+8) paragraph tyesari gara mainidaina .. yeslai tag le wrap garxau
+<p> lorem </p>
+9) <br> sentence garna lai note: but yesle space thapdaina only break garxa paragraph bich ma space dedaina
+10) word ko content jasto bold italics heru ni banauna milcha paragraph lai
+bold garna lai tag <b> .... bolt yo area </b>
+11) <strong> </strong> vitra text rakhda ni bold nai aucha but farak k cha?
+strong is seo friendly..
+12) underline lai <u> , bold lai <b> or <strong> italics <i>
+13) Important kura: paragraph vitra h1 h1 h3 lekhindaina.. naramro practise ho 
+14) text highlight garne kei tarika:
+<b>
+<strong>
+<mark>
+<em>
+
+
+
+#video no 4: comment space break horizontal line
+
+comment:
+1) Comment is most important thing it exist. Hrek coder le comment dinu awasyak huncha
+   kina lekhne? yo section future refrenece lai chainekura comment section ho
+2) <!-- Yo vitra comment lekhna sakincha --!> browser le yo kura ignore garxa
+3) harek kura ma comment gareko ramro
+4) shotcut ... select garne ra ctrl+ / thichdeyo vane comment huncha... single line hos ya multiple line garna milcha
+5) comment garnu best practise manincha....
+space dina:
+1)&thinsp &thinsp garyo vane space hudai jancha
+2)&ensp garera ni space garna milcha
+3)yo kura ajhai milauna css use garne
+4)&emsp autai le double space dincha
+
+break kasari garne?
+1) <br> break paragraph lai break garyo
+
+horizontal ine dina:
+1) <hr> garne
+
+
+#video no 5: Lists:
+
+1)list ko item duikisim ko huncha
+  a) unordered list
+  b) ordred list
+2)undered list:
+yesma items heru dot line le dekhincha as a default:
+
+<ul>
+	<li>Tomato</li>
+	<li>Potato</li>
+	<li>Cabbage</li>
+	<li>Radish</li>
+	<li>Bringle</li>
+</ul>
+
+3) ordered list:
+<ol>
+	<li>Bishal<li>
+	<li>Manjeet<li>
+	<li>Roshan<li>
+	<li>Anima<li>
+	<li>Pandey<li>
+</ol>
+4) Description list:
+<dl>
+<dt>Types of lists in HTML: </dt>
+<dd>Unoredred list </dd>
+<dd>Ordered List </dd>
+<dd>Description List </dd>
+</dl>
+
+5) list vitra ni list banauna milxa:
+
+<ul>
+	<li>Tomato
+	<ul>
+		<li>Tomato no 1</li>
+		<li>Tomato no 2</li>
+	</ul>
+	</li>
+	<li>Potato</li>
+	<li>Cabbage</li>
+	<li>Radish</li>
+	<li>Bringle</li>
+</ul>
+
+6) ordered item ko type A B C D garna milcha
+<ol type="A">
+</ol>
+tyesai gari cirlce banauna milcha unordered list garna milcha
+
+
+#video no 6: anchor elements
+1) Home About Contact heru linkable banaune tarika ho anchor tag
+2) tarika:
+ <a href="list.html">Home</a>
+ <a href="list.html">About</a>
+ <a href="list.html">Contact</a>
+3) Home linkable huncha ra link ma click garda list.html page khulcha
+4)href dui kisim ko huncha"
+a) absolute url: "http://www.google.com"
+b) Relative url: "about.html"
+4) 404 page not error huncha if tyesk ofile chaina vane
+5) Target vanne kura bujna parxa:
+<a href="list.html" target="_blank">home</a>
+yo garda arko tab khulcha
+_blank,_self,_parent,_top
+6) mail heru ni yei content bata lekhna sakincha:
+<a href="mailto:db48dahal@gmail.com">email</a>
+
+#video no 7: HTML images
+1) images ko lagi project folder ma naya folder banaune ra image halne kunai
+a.jpeg
+2) image load garauna:
+<img src="images/a.jpg" alt="image could not be load." title="abc">
+3) yedi image load vayena wa slow hudaicha vane alternative text dina sakincha
+<img src="images/a.jpg" alt="Image Not Found.">
+image load vayena vane patra aucha
+4) title="abc" garda hover garda abc vanera aucha
+5) image lai linkable banauna?
+anchor tag vitra image tag lai rakhne
+
+<a href="http://google.com">
+	<img src="image/a.jpg">
+</a>
+6) a b c images heru ko group rakhna sakincha
+
+
+
+video no 8: audio, video ra map kasari rakhne???
+
+
+1) make folder video and audio and add video and audio on these folders
+2) for adding audio:
+<audio controls>
+	<source src="./audio/whosays.mp3">
+</audio>
+3) audio ma j gario video ma ni tye ho process:
+<video width="400" controls>
+	<source src="./video/triangle.mp4">
+</video>
+4) youtube ko video kasari lyaune?
+
+youtube kholne..
+video ma jane
+share ma jane
+embeded copy garne
+
+5) paste into the body.....
+youtube kai content display huncha
+6) google ko map rakhne process ni tye ho
+google maps ma jane>>>>> kunai auta location ma jane>>> menu>> share and embedded>> dui praker le aucha yesari ki tyasari 
+and then paste it 
+
+
+#video no 9: Table kasari banaune??
+
+1) <table border="1" width="100%">
+tr>th*4 gardeo vane seedai aucha
+</table>
+
+
+<table border="1" width="100%">
+ <tr>
+            <th>SN</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone no.</th>
+        </tr>
+</table>
+
+2) table ko data heru garna arko row banaune
+tr>td*4 garne seedai yo aaucha
+ <tr>
+            <td>1</td>
+            <td>Bishal Pokharel</td>
+            <td>Biratnagar</td>
+            <td>9843788704</td>
+        </tr>
+3) first ko data lai bold gardincha automatically
+4) css le ramro banauna sakincha...
+5) merge garnu paro vane kasari garne? arko video ma herne 
+
+
+
+
